@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  color: black;
+  background-image: radial-gradient(white, pink, red);
+ }
+
+.hidden {
+  display: none;
+}
+button{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  text-align: center;
+  background-color: pink;
+  }
+
+button:hover{
+  background-color: black;
+  color: white;
+}}
